@@ -5,8 +5,22 @@
     </ion-title>
   </ion-navbar>
 </ion-header>
-
+<!-- se crearon 2 pagina 
+ionic g page pagina2
+ionic g page pagina3 -->
+<!-- *.2 creo un boton con su navigacion a la pagina 2 -->
 <ion-content padding>
+    <!-- *.8 añado la navegacion a la pagina 2 (navPush)-->
+<button ion-button
+        block
+       [navPush]="pag2">
+
+      Ir a pagina 2
+      
+
+</button>
+
+
   The world is your oyster.
   <p>
     If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
